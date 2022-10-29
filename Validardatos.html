@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Validar.js" defer></script>
+    <title>Validar Datos</title>
+    <link rel="stylesheet" type="text/css" hreF="style.css">
+</head>
+<body>
+    <h1>Validar datos</h1>
+    <p>Ingrese su nombre:</p>
+    <input id="nombre" required>
+
+    <p>Ingrese su numero de control:</p>
+    <input id="control" required>
+    <p id="valida_control"></p>  <!-- 20120079 m20120079 c20120079 20121079-->
+
+    <p>Ingrese su RFC:</p>
+    <input id="RFC" required>
+    <p id="valida_RFC"></p> <!-- Cuatro letras Mayusculas->6 numeros->combinacion de letras mayusculas y numeros-->
+    <!-- ARBM010323DK7 -->
+    
+    <p>Ingrese su numero de telefono:</p>
+    <input id="telefono" required>
+    <p id="valida_telefono"></p><!-- 4437277797 -->
+
+    <p>Ingrese su correo institucional:</p>
+    <input id="correo" required>
+    <p id="valida_correo"></p> <!-- l20120079@morelia.tecnm.mx -->
+    <p id="correo_coincide"></p>
+
+    <p id="completo"></p>
+
+    <button class="boton0" type="button" onclick="myFunction()">Enviar</button>
+</body>
+</html>
